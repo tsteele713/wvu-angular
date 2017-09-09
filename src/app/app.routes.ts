@@ -1,4 +1,6 @@
-import { RouterModule, Routes } from '@angular/router';
+import { Routes } from '@angular/router';
+import { LandingComponent } from './landing/landing.component';
 
 export const AppRoutes: Routes = [
+  { path: 'landing', component: LandingComponent }
 ];
