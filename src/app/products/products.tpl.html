@@ -1,1 +1,9 @@
 <p>Products Page</p>
+
+<view-products *ngIf="viewToggle"></view-products>
+
+<product-configurations *ngIf="!viewToggle"></product-configurations>
+
+<button (click)="toggleView()" *ngIf="viewToggle">Edit Configration</button>
+
+<button (click)="toggleView()" *ngIf="!viewToggle">View Products</button>
