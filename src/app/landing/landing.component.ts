@@ -4,4 +4,4 @@ import { Component } from '@angular/core';
   selector: 'landing',
   templateUrl: `app/landing/landing.tpl.html`,
 })
-export class LandingComponent  { name = 'Angular'; }
+export class LandingComponent  { }
